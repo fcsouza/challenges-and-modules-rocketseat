@@ -23,12 +23,13 @@
 
 ## 📝 Table of Contents
 <p align="center">
-[About](#about)
-[Getting Started](#getting_started)
-[Usage](#usage)
-[Built Using](#built_using)
-[Authors](#authors)
+<a href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#getting_started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#usage">Uso</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#built_using">Built Using</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#authors">Authors</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
+
 
 ## 🧐 About <a name = "about"></a>
 
