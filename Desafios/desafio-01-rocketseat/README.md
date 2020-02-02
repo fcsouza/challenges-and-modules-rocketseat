@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> API RESTful que manipula um array de projetos e suas tarefas usando Node.Js + Express simulando operações de CRUD.
     <br> 
 </p>
 
