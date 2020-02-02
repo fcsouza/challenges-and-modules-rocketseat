@@ -21,7 +21,7 @@
     <br> 
 </p>
 
-## 📝 Table of Contents
+## 📝 Conteúdo
 <p align="center">
 <a href="#about">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#getting_started">Iniciando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
