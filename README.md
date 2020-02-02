@@ -28,13 +28,13 @@
 
 ## 🧐 Sobre <a name = "about"></a>
 * [Desafios](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios)
-  * [Desafio 01 - APIs e Middlewares](http://github.com)
+  * [Desafio 01 - APIs e Middlewares](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios/desafio-01-rocketseat)
   * [](http://github.com)
   
 ---
 
 * [Módulos](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos)
-  * [Módulo 1 - Conceitos de Node.Js](http://github.com)
+  * [Módulo 1 - Conceitos de Node.Js](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos/modulo-01-rocketseat)
   * [](http://github.com)
 
 ### Installing <a name = "installing"></a>
