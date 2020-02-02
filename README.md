@@ -28,15 +28,16 @@
 
 ## 🧐 Sobre <a name = "about"></a>
 
+<div>
 * [Desafios](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios)
   * [Desafio 01 - APIs e Middlewares](http://github.com)
   * [](http://github.com)
- 
- 
- 
+</div>
+<div>
 * [Módulos](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos)
   * [Módulo 1 - Conceitos de Node.Js](http://github.com)
   * [](http://github.com)
+</div>
 
 ### Installing <a name = "installing"></a>
 
