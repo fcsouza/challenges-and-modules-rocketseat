@@ -3,7 +3,7 @@
  <img width=200px src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Desafio 01: Conceitos do NodeJs</h3>
 
 <div align="center">
 
