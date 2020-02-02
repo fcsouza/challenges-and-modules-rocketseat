@@ -22,14 +22,13 @@
 </p>
 
 ## 📝 Table of Contents
-
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+<p align="center">
+  [About](#about)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  [Getting Started](#getting_started)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  [Usage](#usage)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  [Built Using](#built_using)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  [Authors](#authors)
+</p>
 
 ## 🧐 About <a name = "about"></a>
 
