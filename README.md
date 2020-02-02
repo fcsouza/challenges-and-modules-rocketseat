@@ -17,10 +17,6 @@
 
 ---
 
-<p align="center"> Contéudo Principal.
-    <br> 
-</p>
-
 ## 📝 Conteúdo
 <p align="center">
 <a href="#about">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -32,8 +28,14 @@
 
 ## 🧐 Sobre <a name = "about"></a>
 
-Resolução do desafio 01 da Gostack 10º, onde deveríamos criar um CRUD utilizando Node.Js e Express e utilizar middlewares de validações nas rotas.
-
+* [Desafios](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios)
+  * [Desafio 01 - APIs e Middlewares](http://github.com)
+  * [](http://github.com)
+ 
+ 
+* [Módulos](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos)
+  * [Módulo 1 - Conceitos de Node.Js](http://github.com)
+  * [](http://github.com)
 
 ### Installing <a name = "installing"></a>
 
