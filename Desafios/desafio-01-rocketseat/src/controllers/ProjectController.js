@@ -6,10 +6,17 @@ module.exports = {
     return res.json(Project);
   },
 
-  async store (req, res) {
+  async show (req, res) {
+    const { id } = req.params;
 
-    const id = req.body.id;
-    const title = req.body.title
+    const finding = Project.find(element => element.id == id);
+
+    return res.json(finding);
+  },
+
+  async store (req, res) {
+    const { id } = req.body;
+    const { title } = req.body;
     const tasks = [];
 
     Project.push({id, title, tasks });
@@ -18,16 +25,24 @@ module.exports = {
   },
 
   async update (req, res) {
-    const id = req.params.id;
-    const title =req.body.title;
+    const { id } = req.params;
+    const { title } =req.body;
 
-    const finding = Project.find(element => element.id === id);
+    const finding = Project.find(element => element.id == id);
     finding.title = title;
 
     return res.json(Project);
-
-
   },
+
+  async destroy (req, res) {
+    const { id } = req.params;
+    const finding = Project.findIndex(element => element.id == id);
+    
+    Project.splice(finding, 1);
+
+    return res.json();
+
+  }
 
 
 };
