@@ -28,7 +28,7 @@
 
 ## 🧐 Sobre <a name = "about"></a>
 * [Desafios](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios)
-  * [Desafio 01 - APIs e Middlewares](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios/desafio-01-rocketseat)
+  * [Desafio 01 -  Desenvolvendo APIs e Middlewares](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios/desafio-01-rocketseat)
   * [](http://github.com)
   
 ---
