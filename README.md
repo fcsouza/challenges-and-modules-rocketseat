@@ -33,6 +33,7 @@
   * [](http://github.com)
  
  
+ 
 * [Módulos](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos)
   * [Módulo 1 - Conceitos de Node.Js](http://github.com)
   * [](http://github.com)
@@ -41,7 +42,9 @@
 
 ```
 git clone https://github.com/fcsouza/challenges-and-modules-rocketseat.git
+
 cd /desafios/desafio-xx-rocketseat || cd /modulos/modulos-xx-rocketseat <- Onde xx é o número.
+
 yarn install
 yarn dev
 ```
