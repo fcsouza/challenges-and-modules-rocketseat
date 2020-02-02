@@ -23,10 +23,10 @@
 
 ## 📝 Table of Contents
 <p align="center">
-  [About](#about)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  [Getting Started](#getting_started)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  [Usage](#usage)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  [Built Using](#built_using)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  [About](#about) |
+  [Getting Started](#getting_started) |
+  [Usage](#usage)  |
+  [Built Using](#built_using) |
   [Authors](#authors)
 </p>
 
