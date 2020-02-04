@@ -21,14 +21,14 @@
 <p align="center">
 <a href="#about">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#installing">Instalando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#built_using">Construído Utilizando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#built_using">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#authors">Autor</a>
 </p>
 
 
 ## 🧐 Sobre <a name = "about"></a>
 * [Desafios](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios)
-  * [Desafio 01 - APIs e Middlewares](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios/desafio-01-rocketseat)
+  * [Desafio 01 -  Desenvolvendo APIs e Middlewares](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios/desafio-01-rocketseat)
   * [](http://github.com)
   
 ---
@@ -37,7 +37,7 @@
   * [Módulo 1 - Conceitos de Node.Js](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos/modulo-01-rocketseat)
   * [](http://github.com)
 
-### Installing <a name = "installing"></a>
+### :nut_and_bolt: Instalando <a name = "installing"></a>
 
 ```
 git clone https://github.com/fcsouza/challenges-and-modules-rocketseat.git

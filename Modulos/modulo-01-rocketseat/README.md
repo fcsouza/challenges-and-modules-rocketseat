@@ -25,7 +25,7 @@
 <p align="center">
 <a href="#about">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#installing">Instalando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#built_using">Construído Utilizando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#built_using">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#authors">Autor</a>
 </p>
 
@@ -34,16 +34,16 @@
 
 Introdução do módulo 1 de como manipular rotas e middlewares.
 
-### Installing <a name = "installing"></a>
+### :nut_and_bolt: Instalando <a name = "installing"></a>
 
 ```
 yarn install
 yarn dev
 ```
-## ⛏️ Construído Utilizando <a name = "built_using"></a>
+## ⛏️ Tecnologias Utilizadas <a name = "built_using"></a>
 
 - [Express](https://expressjs.com/) - Server Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [NodeJs](https://nodejs.org/en/) - Backend
 
 ## ✍️ Autor <a name = "authors"></a>
 

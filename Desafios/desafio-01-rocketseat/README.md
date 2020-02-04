@@ -3,7 +3,7 @@
  <img width=200px src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Desafio 01: Conceitos do NodeJs</h3>
+<h3 align="center">Desafio 01: Desenvolvendo APIs e Middlewares</h3>
 
 <div align="center">
 
@@ -27,7 +27,7 @@
 <a href="#getting_started">Iniciando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#installing">Instalando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#usage">Uso</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#built_using">Construído Utilizando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#built_using">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#authors">Autor</a>
 </p>
 
@@ -40,7 +40,7 @@ Resolução do desafio 01 da Gostack 10º, onde deveríamos criar um CRUD utiliz
 
 Instruções de como acessar as rotas e instalação.
 
-### Installing <a name = "installing"></a>
+### :nut_and_bolt: Instalando <a name = "installing"></a>
 
 ```
 yarn install
@@ -59,10 +59,10 @@ yarn dev
 
 - `POST /projects/:id/tasks`: A rota deve receber um campo `title` e armazenar uma nova tarefa no array de tarefas de um projeto específico escolhido através do `id` presente nos parâmetros da rota;
 
-## ⛏️ Construído Utilizando <a name = "built_using"></a>
+## ⛏️ Tecnologias Utilizadas <a name = "built_using"></a>
 
 - [Express](https://expressjs.com/) - Server Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [NodeJs](https://nodejs.org/en/) - Backend
 
 ## ✍️ Autor <a name = "authors"></a>
 
