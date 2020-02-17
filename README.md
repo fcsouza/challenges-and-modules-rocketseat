@@ -28,14 +28,14 @@
 
 ## 🧐 Sobre <a name = "about"></a>
 * [Desafios](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios)
-  * [Desafio 01 -  Desenvolvendo APIs e Middlewares](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios/desafio-01-rocketseat)
-  * [](http://github.com)
+  * [Desafio 01 - Desenvolvendo APIs e Middlewares](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios/desafio-01-rocketseat)
+  * [Desafio 02 - Iniciando a aplicação FastFeet 1/4 - Sequelize, JWT, Bcryptjs, Docker, ESLint & Sucrase](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios/desafio-01-rocketseat)
   
 ---
 
 * [Módulos](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos)
-  * [Módulo 1 - Conceitos de Node.Js](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos/modulo-01-rocketseat)
-  * [](http://github.com)
+  * [Módulo 01 - Conceitos de Node.Js](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos/modulo-01-rocketseat)
+  * [Módulo 02 - Iniciando a aplicação GoBarber 1/4 - Praticando Conceitos de Docker, Sequelize, JWT, Bcryptjs, ESLint, Sucrase & Yup  ](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos/modulo-02-rocketseat)
 
 ### :nut_and_bolt: Instalando <a name = "installing"></a>
 
