@@ -52,6 +52,14 @@ yarn dev
 
 - [Express](https://expressjs.com/) - Server Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Bcryptjs](https://www.npmjs.com/package/bcryptjs) - Hash password module
+- [JWT](https://www.npmjs.com/package/jsonwebtoken) - JWT(JSON Web Token) authentication.
+- [Sequelize](https://sequelize.org/) - Multi SQL dialect ORM 
+- [Yup](https://github.com/jquense/yup) - Simple Object schema validation
+- [ESLint](https://eslint.org/) -  Tool for identifying and reporting on patterns found in ECMAScript/JavaScript code
+- [Nodemon](https://www.npmjs.com/package/nodemon) - Simple monitor script for use during development
+- [Prettier](https://prettier.io/) - Opinionated Code Formatter
+- [Sucrase](https://www.npmjs.com/package/sucrase) - Sucrase is an alternative to Babel that allows super-fast development builds
 
 ## ✍️ Autor <a name = "authors"></a>
 
