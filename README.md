@@ -28,14 +28,14 @@
 
 ## 🧐 Sobre <a name = "about"></a>
 * [Desafios](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios)
-  * [Desafio 01 -  Desenvolvendo APIs e Middlewares](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios/desafio-01-rocketseat)
-  * [](http://github.com)
+  * [Desafio 01 - Desenvolvendo APIs e Middlewares](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios/desafio-01-rocketseat)
+  * [Desafio 02 - Iniciando a aplicação FastFeet 1/4 - Sequelize, JWT, Bcryptjs, Docker, ESLint & Sucrase](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Desafios/desafio-02-rocketseat)
   
 ---
 
 * [Módulos](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos)
-  * [Módulo 1 - Conceitos de Node.Js](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos/modulo-01-rocketseat)
-  * [](http://github.com)
+  * [Módulo 01 - Conceitos de Node.Js](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos/modulo-01-rocketseat)
+  * [Módulo 02 - Iniciando a aplicação GoBarber 1/4 - Praticando Conceitos de Docker, Sequelize, JWT, Bcryptjs, ESLint, Sucrase & Yup  ](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos/modulo-02-rockeseat)
 
 ### :nut_and_bolt: Instalando <a name = "installing"></a>
 
@@ -52,6 +52,14 @@ yarn dev
 
 - [Express](https://expressjs.com/) - Server Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Bcryptjs](https://www.npmjs.com/package/bcryptjs) - Hash password module
+- [JWT](https://www.npmjs.com/package/jsonwebtoken) - JWT(JSON Web Token) authentication.
+- [Sequelize](https://sequelize.org/) - Multi SQL dialect ORM 
+- [Yup](https://github.com/jquense/yup) - Simple Object schema validation
+- [ESLint](https://eslint.org/) -  Tool for identifying and reporting on patterns found in ECMAScript/JavaScript code
+- [Nodemon](https://www.npmjs.com/package/nodemon) - Simple monitor script for use during development
+- [Prettier](https://prettier.io/) - Opinionated Code Formatter
+- [Sucrase](https://www.npmjs.com/package/sucrase) - Sucrase is an alternative to Babel that allows super-fast development builds
 
 ## ✍️ Autor <a name = "authors"></a>
 
