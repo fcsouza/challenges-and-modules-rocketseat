@@ -60,6 +60,7 @@ yarn dev
 - [Nodemon](https://www.npmjs.com/package/nodemon) - Simple monitor script for use during development
 - [Prettier](https://prettier.io/) - Opinionated Code Formatter
 - [Sucrase](https://www.npmjs.com/package/sucrase) - Sucrase is an alternative to Babel that allows super-fast development builds
+- [PostgreSQL](https://www.postgresql.org/) - Open source database(SGBD)
 
 ## ✍️ Autor <a name = "authors"></a>
 
