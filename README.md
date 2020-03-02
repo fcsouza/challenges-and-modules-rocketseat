@@ -35,9 +35,10 @@
 
 * [Módulos](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos)
   * [Módulo 01 - Conceitos de Node.Js](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos/modulo-01-rocketseat)
-  * [Módulo 02 - Iniciando a aplicação GoBarber 1/4 - Praticando Conceitos de Docker, Sequelize, JWT, Bcryptjs, ESLint, Sucrase & Yup  ](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos/modulo-02-rockeseat)
+  * [Módulo 02 - Iniciando a aplicação GoBarber 1/4 - Praticando Conceitos de Docker, Sequelize, JWT, Bcryptjs, ESLint, Sucrase & Yup](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos/modulo-02-rockeseat)
+  * [Módulo 11 - Utilizando TDD para aplicação de testes unitários com Jest ](https://github.com/fcsouza/challenges-and-modules-rocketseat/tree/master/Modulos/modulo-11-rockeseat)
 
-### :nut_and_bolt: Instalando <a name = "installing"></a>
+### ⚙️ Instalando <a name = "installing"></a>
 
 ```
 git clone https://github.com/fcsouza/challenges-and-modules-rocketseat.git
@@ -60,7 +61,16 @@ yarn dev
 - [Nodemon](https://www.npmjs.com/package/nodemon) - Simple monitor script for use during development
 - [Prettier](https://prettier.io/) - Opinionated Code Formatter
 - [Sucrase](https://www.npmjs.com/package/sucrase) - Sucrase is an alternative to Babel that allows super-fast development builds
+
+Database
 - [PostgreSQL](https://www.postgresql.org/) - Open source database(SGBD)
+- [SQLite](https://www.sqlite.org/) - Open source database(SGBD)
+
+Unit Test
+- [Jest](https://jestjs.io/) - JavaScript Testing tools
+- [Supertest](https://github.com/visionmedia/supertest) - Super-agent driven library for testing node.js HTTP servers using a fluent API.
+- [Faker](https://www.npmjs.com/package/faker) - generate massive amounts of fake data in the browser and node.js
+- [Factory-girl](https://www.npmjs.com/package/factory-girl) - A library for setting up Javascript objects as test data.
 
 ## ✍️ Autor <a name = "authors"></a>
 
