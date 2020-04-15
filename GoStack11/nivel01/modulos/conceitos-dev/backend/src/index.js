@@ -1,14 +1,16 @@
 const express = require('express');
+const cors = require('cors');
 const { uuid, isUuid } = require('uuidv4');
 
 const app= express();
 
+app.use(cors());
 app.use(express.json());
 
 const projects = [];
 
 function logRequest(request, response, next) {
-  const { method } = request;
+  const { method, url } = request;
 
   const logLabel = `[${method.toUpperCase()}] ${url}`;
 
