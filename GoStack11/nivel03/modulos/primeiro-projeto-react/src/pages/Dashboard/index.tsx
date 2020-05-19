@@ -2,7 +2,8 @@ import React from 'react';
 
 import logoImg from '../../assets/logo.svg';
 
-import { Title, Form } from './styles';
+import { Title, Form, Repositories } from './styles';
+import Repository from '../Repository';
 
 const Dashboard: React.FC = () => {
   return (
@@ -14,6 +15,15 @@ const Dashboard: React.FC = () => {
         <input placeholder="Digite o nome do repositório" />
         <button type="submit">Pesquisa</button>
       </Form>
+
+      <Repositories>
+        <a href="test">
+          <img
+            src="https://avatars1.githubusercontent.com/u/7094035?s=460&v=4"
+            alt="Fabricio"
+          />
+        </a>
+      </Repositories>
     </>
   );
 };
