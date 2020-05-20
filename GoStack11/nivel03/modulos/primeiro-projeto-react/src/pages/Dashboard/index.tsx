@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiChevronRight } from 'react-icons/fi';
 
 import logoImg from '../../assets/logo.svg';
 
@@ -22,6 +23,12 @@ const Dashboard: React.FC = () => {
             src="https://avatars1.githubusercontent.com/u/7094035?s=460&v=4"
             alt="Fabricio"
           />
+          <div>
+            <strong>rocketseat/unform</strong>
+            <p>Easly flexible</p>
+          </div>
+
+          <FiChevronRight size={20} />
         </a>
       </Repositories>
     </>
