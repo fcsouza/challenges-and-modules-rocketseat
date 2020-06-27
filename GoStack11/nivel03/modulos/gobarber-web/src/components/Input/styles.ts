@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+interface ContainerProps {
+  isFocused: boolean;
+}
+
+export const Container = styled.div<ContainerProps>`
   background: #232129;
   border-radius: 10px;
   border: 2px solid #232129;
@@ -20,6 +24,10 @@ export const Container = styled.div`
     background: transparent;
     border: 0;
     color: #f4ede8;
+
+    &:focus {
+      background: #fff;
+    }
 
     &::placeholder {
       color: #666360;
