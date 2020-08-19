@@ -16,7 +16,7 @@ module.exports = {
         allowNull: false,
       },
       number: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false,
       },
       complement: {
@@ -31,7 +31,7 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      postcode: {
+      zipcode: {
         type: Sequelize.STRING,
         allowNull: false,
       },
