@@ -1,5 +1,8 @@
 import Sequelize, { Model } from 'sequelize';
+
 import bcrypt from 'bcryptjs';
+
+import jwt from 'jsonwebtoken';
 
 class User extends Model {
   static init(sequelize) {
@@ -17,7 +20,8 @@ class User extends Model {
 
     this.addHook('beforeSave', async user => {
       if (user.password) {
-        user.password_hash = await bcrypt.hash(user.password, 8);
+        const salt = await bcrypt.genSaltSync(10);
+        user.password_hash = await bcrypt.hash(user.password, salt);
       }
     });
 
@@ -26,6 +30,10 @@ class User extends Model {
 
   checkPassword(password) {
     return bcrypt.compare(password, this.password_hash);
+  }
+
+  generateToken() {
+    return jwt.sign({ id: this.id }, process.env.APP_SECRET);
   }
 }
 
