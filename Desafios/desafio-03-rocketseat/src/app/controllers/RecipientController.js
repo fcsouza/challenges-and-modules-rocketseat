@@ -1,77 +1,96 @@
-import * as Yup from 'yup';
-
+import { Op } from 'sequelize';
 import Recipient from '../models/Recipient';
 
 class RecipientController {
   async index(req, res) {
-    const recipient = await Recipient.findAll();
+    const { name: nameParam, id: idParam } = req.query;
+
+    let where = null;
+    if (nameParam && idParam) {
+      where = {
+        name: {
+          [Op.iLike]: `%${nameParam}%`,
+        },
+        id: idParam,
+      };
+    } else if (nameParam && !idParam) {
+      where = {
+        name: {
+          [Op.iLike]: `%${nameParam}%`,
+        },
+      };
+    } else if (!nameParam && idParam) {
+      where = {
+        id: idParam,
+      };
+    }
+
+    const recipient = await Recipient.findAll({
+      where,
+      order: [['id', 'ASC']],
+    });
 
     return res.json(recipient);
   }
 
   async store(req, res) {
-    const schema = Yup.object().shape({
-      name: Yup.string().required(),
-      street: Yup.string().required(),
-      number: Yup.number().required(),
-      complement: Yup.string(),
-      state: Yup.string().required(),
-      city: Yup.string().required(),
-      postcode: Yup.string().required(),
-    });
-
-    if (!(await schema.isValid(req.body))) {
-      return res.status(400).json({
-        error: 'Validation Fails. Check if all the fields are correctly filled',
-      });
-    }
-
-    const { name, number, postcode } = req.body;
-
-    const recipientExists = await Recipient.findOne({
-      where: { name, number, postcode },
-    });
-
-    if (recipientExists) {
-      return res.status(400).json({
-        error: 'Recipient already exists.',
-      });
-    }
-
-    const { id } = await Recipient.create(req.body);
+    const {
+      id,
+      name,
+      street,
+      number,
+      complement,
+      state,
+      city,
+      zipcode,
+    } = await Recipient.create(req.body);
 
     return res.json({
       id,
       name,
+      street,
       number,
-      postcode,
+      complement,
+      state,
+      city,
+      zipcode,
     });
   }
 
   async update(req, res) {
-    const schema = Yup.object().shape({
-      name: Yup.string(),
-      street: Yup.string(),
-      number: Yup.number(),
-      complement: Yup.string(),
-      state: Yup.string(),
-      city: Yup.string(),
-      postcode: Yup.string(),
-    });
+    const recipient = await Recipient.findByPk(req.params.id);
 
-    if (!(await schema.isValid(req.body))) {
-      return res.status(400).json({
-        error:
-          'Validation Fails. Check if all the fields are correctly filled.',
-      });
-    }
+    const {
+      id,
+      name,
+      street,
+      number,
+      complement,
+      state,
+      city,
+      zipcode,
+    } = await recipient.update(req.body);
+
+    return res.json({
+      id,
+      name,
+      street,
+      number,
+      complement,
+      state,
+      city,
+      zipcode,
+    });
+  }
+
+  async delete(req, res) {
     const { id } = req.params;
 
     const recipient = await Recipient.findByPk(id);
 
-    const updated = await recipient.update(req.body);
+    await recipient.destroy();
 
-    return res.json(updated);
+    return res.send();
   }
 }
 
