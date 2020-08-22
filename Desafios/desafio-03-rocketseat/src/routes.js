@@ -7,6 +7,8 @@ import SessionController from './app/controllers/SessionController';
 import FileController from './app/controllers/FileController';
 import RecipientController from './app/controllers/RecipientController';
 import DeliverymenController from './app/controllers/DeliverymenController';
+import SignatureController from './app/controllers/SignatureController';
+import OrderController from './app/controllers/OrderController';
 
 import validateUserStore from './app/validators/UserStore';
 import validateUserUpdate from './app/validators/UserUpdate';
