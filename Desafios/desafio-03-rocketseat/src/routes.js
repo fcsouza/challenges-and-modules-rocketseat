@@ -10,7 +10,7 @@ import DeliverymenController from './app/controllers/DeliverymenController';
 import SignatureController from './app/controllers/SignatureController';
 import OrderController from './app/controllers/OrderController';
 import OrderStatusController from './app/controllers/OrderStatusController';
-
+import DeliveryProblemsController from './app/controllers/DeliveryProblemsController';
 
 import validateUserStore from './app/validators/UserStore';
 import validateUserUpdate from './app/validators/UserUpdate';
@@ -21,6 +21,8 @@ import validateDeliverymanStore from './app/validators/DeliverymanStore';
 import validateDeliverymanUpdate from './app/validators/DeliverymanUpdate';
 import validateOrderStore from './app/validators/OrderStore';
 import validateOrderUpdate from './app/validators/OrderUpdate';
+import validateOrderStatusUpdate from './app/validators/OrderStatusUpdate';
+import validateDeliveryProblemsStore from './app/validators/DeliveryProblemsStore';
 
 import authMiddleware from './app/middlewares/auth';
 
@@ -59,6 +61,9 @@ routes.get('/orders/:id', OrderController.show);
 routes.post('/orders', validateOrderStore, OrderController.store);
 routes.put('/orders/:id', validateOrderUpdate, OrderController.update);
 routes.delete('/orders/:id', OrderController.delete);
+
+routes.get('/delivery/problems', DeliveryProblemsController.index);
+routes.delete('/delivery/:id/cancel-delivery', DeliveryProblemsController.delete);
 
 routes.post('/files', upload.single('file'), FileController.store);
 
