@@ -9,6 +9,7 @@ import RecipientController from './app/controllers/RecipientController';
 import DeliverymenController from './app/controllers/DeliverymenController';
 import SignatureController from './app/controllers/SignatureController';
 import OrderController from './app/controllers/OrderController';
+import OrderStatusController from './app/controllers/OrderStatusController';
 
 
 import validateUserStore from './app/validators/UserStore';
