@@ -21,7 +21,7 @@
     "pg-hstore": "^2.3.3",
     "sequelize": "^5.15.1",
     "youch": "^2.0.10",
-    "snyk": "^1.465.0"
+    "snyk": "^1.518.0"
   },
   "devDependencies": {
     "@sucrase/jest-plugin": "^2.0.0",
