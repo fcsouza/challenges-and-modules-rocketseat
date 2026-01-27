@@ -27,10 +27,10 @@
     "nodemailer-express-handlebars": "^3.3.0",
     "pg": "^7.18.1",
     "pg-hstore": "^2.3.3",
-    "sequelize": "^5.21.3",
+    "sequelize": "^6.1.0",
     "youch": "^2.0.10",
     "yup": "^0.28.1",
-    "snyk": "^1.518.0"
+    "snyk": "^1.996.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
